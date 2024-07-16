@@ -14,5 +14,6 @@
   - Clone the Repository
   - Open project in your IDE
   - run: "npm install"
+  - run npm i react-transition-group
   - run npm i --save-dev @types/react-transition-group
   - run: "npm start"
