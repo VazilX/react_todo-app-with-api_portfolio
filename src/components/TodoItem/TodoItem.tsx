@@ -49,10 +49,9 @@ export const TodoItem: React.FC<Props> = ({ todo }) => {
     return deleteTodo(todo.id)
       .then(() => {
         setTodos(prevTodos => {
-          const newTodos = [...prevTodos];
-          const index = newTodos.findIndex(t => t.id === todo.id);
-
-          newTodos.splice(index, 1);
+          const newTodos = [...prevTodos].filter(
+            prevTodo => prevTodo.id !== todo.id,
+          );
 
           return newTodos;
         });
