@@ -1,4 +1,4 @@
-# Landing page of the company "MY BIKE".
+# Single page application "Todo".
   Todo single page application for tracking completed tasks. You can mark a task as completed or remove this mark. You can also add and delete. edit and sort tasks by status.
 
 ## Technologies that were used:
